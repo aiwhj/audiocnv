@@ -1,0 +1,7 @@
+ARG_ENABLE('audiocnv', 'audiocnv support', 'no');
+
+if (PHP_AUDIOCNV != 'no') {
+	AC_DEFINE('HAVE_AUDIOCNV', 1, 'audiocnv support enabled');
+
+	EXTENSION('audiocnv', 'audiocnv.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}
