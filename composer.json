@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "Aiwhj\\audioCNV\\": "src/Aiwhj/audioCNV"
+          "Aiwhj\\audioCNV\\": "src/"
         }
     }
 }
