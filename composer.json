@@ -1,5 +1,5 @@
 {
-    "name": "whj/audiocnv",
+    "name": "aiwhj/audiocnv",
     "description": "ffmpeg音频格式转化 for php",
     "type": "library",
     "require": {
